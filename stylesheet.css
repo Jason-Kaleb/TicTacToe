@@ -1,0 +1,41 @@
+* {
+    padding:0;
+    margin:0;
+    background-color: grey;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.block {
+    height:105px;
+    width:150px;
+    border: 2px solid white;
+    line-height: 85px;
+    font-size: 80px;
+    cursor: pointer;
+    color:white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 450px;
+    margin: auto;
+}
+#main {
+    align-items: center;
+    text-align: center;
+}
+
+#btn {
+    border-radius: 20px;
+    color: black;
+    background-color:white;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
